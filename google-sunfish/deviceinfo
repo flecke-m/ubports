@@ -2,19 +2,8 @@ deviceinfo_name="Pixel 4a" deviceinfo_manufacturer="Google"
 deviceinfo_codename="sunfish" deviceinfo_arch="aarch64"
 deviceinfo_kernel_source="https://github.com/flecke-m/kernel-google-sunfish.git"
 deviceinfo_kernel_source_branch="lineage-22.2"
-deviceinfo_kernel_defconfig="sunfish_defconfig
-halium.config"
-deviceinfo_kernel_cmdline="console=ttyMSM0,115200n8
-androidboot.console=ttyMSM0 printk.devkmsg=on
-msm_rtb.filter=0x237 ehci-hcd.park=3
-service_locator.enable=1 androidboot.memcg=1
-cgroup.memory=nokmem lpm_levels.sleep_disabled=1
-usbcore.autosuspend=7 loop.max_part=7
-androidboot.usbcontroller=a600000.dwc3 swiotlb=1
-androidboot.boot_devices=soc/1d84000.ufshc
-buildvariant=user apparmor=1 security=apparmor console=tty0
-selinux=0 androidboot.selinux=permissive
-systempart=/dev/mapper/system_a:ro"
+deviceinfo_kernel_defconfig="sunfish_defconfig halium.config"
+deviceinfo_kernel_cmdline="console=ttyMSM0,115200n8 androidboot.console=ttyMSM0 printk.devkmsg=on msm_rtb.filter=0x237 ehci-hcd.park=3 service_locator.enable=1 androidboot.memcg=1 cgroup.memory=nokmem lpm_levels.sleep_disabled=1 usbcore.autosuspend=7 loop.max_part=7 androidboot.usbcontroller=a600000.dwc3 swiotlb=1 androidboot.boot_devices=soc/1d84000.ufshc buildvariant=user apparmor=1 security=apparmor console=tty0 selinux=0 androidboot.selinux=permissive systempart=/dev/mapper/system_a:ro"
 deviceinfo_kernel_clang_compile="true"
 deviceinfo_flash_pagesize="4096"
 deviceinfo_flash_offset_base="0x00000000"
