@@ -12,6 +12,14 @@ Clang download from Lineage since r416183b is needed, official Android repo only
 
 "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b" "lineage-20.0"
 
+just learned this is the Android 12 build toolchain
+
+deviceinfo_kernel_clang_branch="android12L-gsi"
+deviceinfo_kernel_clang_revision="r416183b"
+
+Right Toolchain can be found in build.config.common of the Kernel source
+
+
 ```bash
 ./build.sh -b builddir  # builddir is the name of the build directory
 ./build/prepare-fake-ota.sh out/device_sunfish.tar.xz ota
