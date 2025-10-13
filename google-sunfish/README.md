@@ -6,11 +6,6 @@ Building wiht LOS Kernel 22.2 and Halium 13.
 
 To manually build this project, follow these steps:
 
-Needed manual changes to setup_repository.sh
-
-Clang download from Lineage since r416183b is needed, official Android repo only has r416183d!
-
-"https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b" "lineage-20.0"
 
 just learned this is the Android 12 build toolchain
 
