@@ -1,0 +1,28 @@
+phablet@ubuntu-phablet:/lib/systemd/system$ sudo lxc-ls --fancy
+NAME    STATE   AUTOSTART GROUPS IPV4        IPV6 UNPRIVILEGED 
+android RUNNING 0         -      10.15.19.82 -    false        
+phablet@ubuntu-phablet:/lib/systemd/system$ sudo lomiri
+[2025-10-13:11:00:58.850] Not using nested server, using null mir cursor
+[2025-10-13:11:00:58.850] qtmir.screens: ScreensModel[ScreensModel(0x558e1f8690)]::ScreensModel()
+[2025-10-13:11:00:58.854] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+[2025-10-13 11:00:58.870539] <information> mirserver: Starting
+[2025-10-13 11:00:58.878369] < - debug - > mirserver: Not using logind for session management: Seat has no active session
+[2025-10-13 11:00:58.879864] < - debug - > mirserver: Using Linux VT subsystem for session management
+[2025-10-13 11:00:58.880115] <information> mircommon: Loading modules from: /usr/lib/aarch64-linux-gnu/mir1/server-platform
+[2025-10-13 11:00:58.880285] <information> mircommon: Loading module: /usr/lib/aarch64-linux-gnu/mir1/server-platform/graphics-android2.so.16
+[2025-10-13 11:00:58.880434] <information> mircommon: Loading module: /usr/lib/aarch64-linux-gnu/mir1/server-platform/input-evdev.so.7
+[2025-10-13 11:00:58.889973] <information> mirserver: Found graphics driver: ubports:android2 (version 1.8.0) Support priority: 272
+[2025-10-13 11:00:58.890246] <information> mirserver: Selected driver: ubports:android2 (version 1.8.0)
+library "eglSubDriverAndroid.so" not found
+library "libadreno_app_profiles.so" not found
+library "libhdrdynamic.so" not found
+SharedModule: hdrdynamic: dlopen failed: 
+library "libhdrdynamic.so" not found
+SharedModule: hdrdynamic: dlopen failed: 
+library "libhdrdynamic.so" not found
+SharedModule: hdrdynamic: dlopen failed: 
+library "libhdrdynamic.so" not found
+SharedModule: hdrdynamic: dlopen failed: 
+[2025-10-13 11:00:59.136876] <information> android/server: Error opening HWC HAL. Assuming HWComposer 2 device with libhwc2_compat_layer.
+[2025-10-13:11:01:08.855] ERROR: QMirServer - Mir failed to start
+Aborted

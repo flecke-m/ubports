@@ -19,3 +19,24 @@ boot header size: 1660
 dtb size: 425348
 dtb address: 0x0000000001f00000
 
+Boot image LOS Pixel 4a
+boot magic: ANDROID!
+kernel_size: 20176522
+kernel load address: 0x00008000
+ramdisk size: 17960176
+ramdisk load address: 0x01000000
+second bootloader size: 0
+second bootloader load address: 0x00000000
+kernel tags load address: 0x00000100
+page size: 4096
+os version: 15.0.0
+os patch level: 2025-09
+boot image header version: 2
+product name: 
+command line args: console=ttyMSM0,115200n8 androidboot.console=ttyMSM0 printk.devkmsg=on msm_rtb.filter=0x237 ehci-hcd.park=3 service_locator.enable=1 androidboot.memcg=1 cgroup.memory=nokmem lpm_levels.sleep_disabled=1 usbcore.autosuspend=7 loop.max_part=7 loop.hw_queue_depth=31 androidboot.usbcontroller=a600000.dwc3 swiotlb=1 androidboot.boot_devices=soc/1d84000.ufshc cgroup_disable=pressure
+additional command line args: 
+recovery dtbo size: 0
+recovery dtbo offset: 0x0000000000000000
+boot header size: 1660
+dtb size: 405604
+dtb address: 0x0000000001f00000
