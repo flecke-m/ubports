@@ -25,7 +25,6 @@ ACTION=="add", KERNEL=="mtp_usb", OWNER="root", GROUP="mtp", MODE="0660"
 ACTION=="add", KERNEL=="usb_accessory", OWNER="root", GROUP="usb", MODE="0660"
 ACTION=="add", KERNEL=="tun", OWNER="system", GROUP="vpn", MODE="0660"
 ACTION=="add", KERNEL=="ppp", OWNER="radio", GROUP="vpn", MODE="0660"
-
 ACTION=="add", KERNEL=="diag", OWNER="system", GROUP="diag", MODE="0660"
 ACTION=="add", KERNEL=="wlan", OWNER="system", GROUP="system", MODE="0666"
 ACTION=="add", KERNEL=="kgsl-3d0", OWNER="system", GROUP="system", MODE="0666"

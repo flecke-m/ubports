@@ -1,0 +1,9 @@
+sunfish:
+  Vendor: Google
+  PrettyName: Pixel 4a
+  DeviceType: phone
+  GridUnit: 14
+  SupportedOrientations:
+    - Portrait
+    - Landscape
+    - InvertedLandscape
