@@ -24,7 +24,7 @@ deviceinfo_bootimg_partition_size="67108864"
 deviceinfo_rootfs_image_sector_size="4096" 
 deviceinfo_kernel_image_name="Image.lz4" 
 deviceinfo_kernel_use_dtc_ext="true" 
-deviceinfo_halium_version="13" 
+deviceinfo_halium_version="12" 
 deviceinfo_ramdisk_compression="gzip" 
 deviceinfo_use_overlaystore="true" 
 # Use a specific revision of prebuilt clang revision 
