@@ -1,0 +1,13 @@
+MIR_SERVER_ENABLE_MIRCLIENT=1 lomiri-system-compositor --debug-without-dm --spinner /usr/bin/lomiri-system-compositor-spinner
+
+[2025-10-26 09:53:16.349932] <information> mirserver: Selected driver: ubports:android2 (version 1.8.0)
+library "eglSubDriverAndroid.so" not found
+cannot locate symbol "_ZN7android8gralloc418encodeSmpte2094_10ERKNSt3__18optionalINS1_6vectorIhNS1_9allocatorIhEEEEEEPNS_8hardware8hidl_vecIhEE" referenced by "/android/vendor/lib64/libgralloccore.so".
+
+still error hwcomposer
+
+[  187.934465] init: starting service 'vendor.hwcomposer-2-4'...
+[  187.950549] init: Service 'vendor.hwcomposer-2-4' (pid 11205) exited with status 1
+[  187.950557] init: Sending signal 9 to service 'vendor.hwcomposer-2-4' (pid 11205) process group...
+[  187.950783] init: Command 'restart surfaceflinger' action=onrestart (<Service 'vendor.hwcomposer-2-4' onrestart>:1) took 0ms and failed: service surfaceflinger not found
+[  192.936070] init: starting service 'vendor.hwcomposer-2-4'...
